@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: NSC Adapter
+    
+server:
+  port: 8081
+  
+###########- Spring Actuator -#######
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+ 
+######      
+nsc:
+ url: http://localhost:8082/incomes      
