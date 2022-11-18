@@ -15,10 +15,22 @@
 	<int:channel id="get_receive_channel">
 		<int:queue capacity='10' />
 	</int:channel>
+	
+	<int:channel id="get_input_channel" />
+
+	<int:channel id="get_output_channel">
+		<int:queue capacity='10' />
+	</int:channel>
 
 	<int-http:outbound-gateway id="get.outbound.gateway"
 		request-channel="get_send_channel" url="${nsc.url}"
 		http-method="GET" reply-channel="get_receive_channel"
+		expected-response-type="java.lang.String">
+	</int-http:outbound-gateway>
+	
+	<int-http:outbound-gateway id="get.message.gateway"
+		request-channel="get_input_channel" url="${nsc.url1}"
+		http-method="GET" reply-channel="get_output_channel"
 		expected-response-type="java.lang.String">
 	</int-http:outbound-gateway>
 </beans>

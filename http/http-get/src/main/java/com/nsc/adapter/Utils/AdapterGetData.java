@@ -25,6 +25,17 @@ public class AdapterGetData {
 
 	@Value("${nsc.url}")
 	String url;
+	
+	@Autowired
+	@Qualifier("get_input_channel")
+	MessageChannel getInputChannel;
+
+	@Autowired
+	@Qualifier("get_output_channel")
+	PollableChannel getOutputChannel;
+
+	@Value("${nsc.url1}")
+	String url1;
 
 	public String getApiData() {
 		Message<?> message = MessageBuilder.withPayload("").build();
@@ -32,5 +43,13 @@ public class AdapterGetData {
 		//System.out.println("payload from api call = " + getReceiveChannel.receive().getPayload().toString());
 		log.info("url from yml = {}", url);
 		return getReceiveChannel.receive().getPayload().toString();
+	}
+	
+	public String getApiDataAcc() {
+		Message<?> message = MessageBuilder.withPayload("").build();
+		getInputChannel.send(message);
+		//System.out.println("payload from api call = " + getReceiveChannel.receive().getPayload().toString());
+		log.info("url from yml = {}", url1);
+		return getOutputChannel.receive().getPayload().toString();
 	}
 }

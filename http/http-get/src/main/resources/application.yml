@@ -17,4 +17,5 @@ management:
  
 ######      
 nsc:
- url: http://localhost:8082/incomes      
+ url: http://localhost:8082/incomes
+ url1: http://localhost:8082/getInput      

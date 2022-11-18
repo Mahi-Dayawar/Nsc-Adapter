@@ -1,0 +1,130 @@
+  {
+      "clientData":{
+         "accountId":"10042566",
+         "organizationName":"Equifax"
+      },
+      "enrollmentDetails":[
+         {
+            "enrollmentData":[
+               {
+                  "schoolcertifiedOnDate":"2017-03-14",
+                  "termBeginDate":"2017-07-31",
+                  "majorCourses0fstudy":[
+                     {
+                        "course":"Chemical Engineering",
+                        "ncesCIPCode":"140701"
+                     },
+                     {
+                        "course":"Industrial Engineering",
+                        "ncesCIPCode":"143501"
+                     },
+                     {
+                        "course":"Hotel/Motel Administration/Management",
+                        "ncesCIPCode":"520904"
+                     },
+                     {
+                        "course":"CHEMICAL AND BTOMLECULAR ENGINEERING",
+                        "ncesCIPCoge":null
+                     }
+                  ],
+                  "termEndDate":"2018-06-30",
+                  "Enrollmentstatus":"F",
+                  "anticpatedGraduarionDate":"2020-05-31"
+               },
+               {
+                  "schoolCertifiedOnDate":"2016-08-14",
+                  "termBeginDate":"2016-07-31",
+                  "majorCourses0fStudy":[
+                     {
+                        "course":"Chemical Engineering",
+                        "ncesCIPCode":"140701"
+                     },
+                     {
+                        "course":"Industrial Engineering",
+                        "ncesCIPCode":"143501"
+                     },
+                     {
+                        "course":"Hotel/Motel Administration/Management",
+                        "ncescIPCode":"520904"
+                     },
+                     {
+                        "course":"CHEMICAL AND BIOMoLECULAR ENGINEERING",
+                        "ncesCIPCode":null
+                     }
+                  ],
+                  "termEndDate":"2017-01-31",
+                  "enrollmentStatus":"L",
+                  "anticipatedGraduationDate":"2020-05-31"
+               }
+            ],
+            "officialSchoolName":"VS-HOMETOWN UNIVERSITY",
+            "enrollmentSinceDate":"2017-03-14",
+            "schoolType":"2",
+            "nameOnSchoolRecord":{
+               "firsttName":"JOHN",
+               "lasttName":"SMITHEREENS"
+            },
+            "currentEnrollmentStatus":"CC"
+         },
+         {
+            "enrollmentData":[
+               {
+                  "ShoolCertifiedOnDate":"2017-03-14",
+                  "termBeginDate":"2017-07-31",
+                  "majorCourses0fStudy":[
+                     {
+                        "coUrSe":"Chemical Engineering",
+                        "ncesCIPCode":"140701"
+                     },
+                     {
+                        "course":"Industrial Engineering",
+                        "ncesCIPCode":"143501"
+                     },
+                     {
+                        "course":"Hotel/Motel Administration/Management",
+                        "ncescIPCode":"520904"
+                     },
+                     {
+                        "course":"CHEMICAL AND BIOMoLECULAR ENGINEERING",
+                        "ncesCIPCode":"520976"
+                     }
+                  ],
+                  "termEndDate":"2017-01-31",
+                  "enrollmentStatus":"L",
+                  "anticipated@raduationDate":"2020-05-31"
+               }
+            ],
+            "officialSchoolName":"VS-HOME-TOWN UNIVERSITY",
+            "enrollmentSinceDate":"2017-03-14",
+            "schoolType":"2",
+            "nameOnSchoolRecord":{
+               "firsttName":"JOHN",
+               "lasttName":"SMITHEREENS"
+            },
+            "currentEnrollmentStatus":"CC"
+         }
+      ],
+      "status":{
+         "severity":"Info",
+         "COde":"0",
+         "message":"Successful"
+      },
+      "studentInfoProvided":{
+         "firsttName":"JOHN",
+         "lastName":"FORCE",
+         "date0fBirth":"119900124",
+         "schoolcode":"999888"
+      },
+      "transactionDetails":{
+         "requestedBy":"Eqauifax Testing",
+         "nscHit":"Y",
+         "transactionFee":"0.00",
+         "orderid":"666482999",
+         "transactionStatust":"CNF",
+         "requestOnDate":"2022-11-07 5:02:54.116",
+         "salesTax":"0.00",
+         "TransactionTotal":"0.00",
+         "notifiedDate":"2022-11-07 5:02:54.116",
+         "transactionId":"100000999"
+      }
+   }
